@@ -160,6 +160,7 @@ li {
     background-color: rgb(233, 230, 230);
     border-radius: 70px;
     padding: 4px;
+    cursor: pointer;
 
 }
 
