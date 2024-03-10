@@ -58,17 +58,13 @@ li {
 }
 
 #article-container {
-
-
     width: 75%;
-
-
-
 }
 
 .artist {
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -91,8 +87,10 @@ li {
 
 
 .artist img {
-    width: 2em;
+    width: 2rem;
+    height: 2rem; 
     border-radius: 50%;
+    object-fit: cover;
 
 }
 
@@ -175,7 +173,7 @@ li {
 }
 
 .person img {
-    width: 8%;
+    width: 12%;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -223,4 +221,12 @@ p {
 
 span {
     color: gray;
+}
+
+.person h2 {
+    margin: 1rem;
+}
+
+.artist h3{
+    margin-left: 1rem;
 }
