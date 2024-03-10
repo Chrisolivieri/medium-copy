@@ -1,0 +1,226 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#super-container {
+    display: flex;
+
+}
+
+#top-page {
+    width: 100%;
+    height: autos;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 2em;
+    border-bottom: solid rgb(239, 238, 238);
+    position: fixed;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.icons {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons button {
+    border-radius: 70px;
+    background-color: white;
+    height: 2em;
+}
+
+li {
+    display: inline-block;
+    margin: 1em;
+}
+
+.top-main {
+    width: 50%;
+    margin: 5em
+}
+
+#left {
+    width: 65%;
+    border-right: solid rgb(239, 238, 238);
+    margin-top: 2em;
+}
+
+#right {
+    width: 25%;
+    margin-top: 7em;
+}
+
+#article-container {
+
+
+    width: 75%;
+
+
+
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.article {
+    display: flex;
+    margin: 4em;
+    width: 100%;
+
+}
+
+.pic {
+    width: 40%;
+    height: 50%;
+    object-fit: cover;
+    margin-top: 2em;
+}
+
+
+
+
+.artist img {
+    width: 2em;
+    border-radius: 50%;
+
+}
+
+#right {
+    width: 35%;
+    margin-right: 10em
+}
+
+
+.connect-to img {
+    width: 10%;
+    height: auto;
+}
+
+.connect-to img:nth-child(2) {
+    width: 5%;
+}
+
+.first-container {
+    height: 10%;
+
+}
+
+.connect-to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.medium-twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 4em;
+
+}
+
+.button button {
+    border-radius: 70px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+.recommended {
+    height: 10%;
+    margin-left: 5em;
+}
+
+.topics {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.topic {
+    margin: 1em;
+    background-color: rgb(233, 230, 230);
+    border-radius: 70px;
+    padding: 4px;
+
+}
+
+.who-to-follow {
+
+    width: 80%;
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-bottom: 5em;
+
+}
+
+.person img {
+    width: 8%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.person {
+    margin: 1em;
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.saved {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 5em;
+}
+
+.link {
+    margin-top: 5em;
+    width: 60%;
+    height: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4em;
+}
+
+.link a {
+    margin: 3%;
+    text-decoration: none;
+    color: gray;
+
+
+}
+
+p {
+    color: gray;
+}
+
+span {
+    color: gray;
+}
